@@ -1,5 +1,8 @@
+.max-width-1920px{max-width: 1920px;
+width:100%;}
 .bkgcolor{background-color:#29B078;}
 .num{margin-top:8px;}
+.wrap{width:100%;}
 .icon a{
     display:inline-block;
     width:25px;
@@ -8,6 +11,7 @@
     cursor: pointer;
     margin-right:20px;
 }
+
 .icon-wx{background: url(../img/top-logo02.jpg);}
 .icon-qq{background: url(../img/top-logo03.jpg);}
 .icon-wb{background: url(../img/top-logo04.jpg);}
@@ -30,6 +34,11 @@ nav ul li a{
     font-size:14px;
     color:#a1a1a1;
     text-align: justify;
+}
+.p-14px-green{
+    font-size:14px;
+    color:#29B078 !important;
+    text-align:left;
 }
 .pd-left-40{
     padding-left:40px;
@@ -78,12 +87,17 @@ nav ul li a{
     height: 72px;
     border-radius: 50%;
 }
+.list-icon{
+    list-style-image: url("../img/ico_05.png");
+    list-style-position: inside;
+    text-align: left;
+}
 @media screen and (max-width: 767px) {
     .icon a{margin-right:0;}
     .width767-hidden{display: none;}
     .circle{border:0;
     background-color:transparent;}
-    .student-border{
+    .col-border{
        border:1px solid #eeeded;
        background-color: #fff;
        border-radius: .5em;
@@ -109,7 +123,7 @@ nav ul li a{
         position:relative;
         left:-10px;
     }
-    .student-border{
+    .col-border{
         border:1px solid #eeeded;
         background-color: #fff;
         border-radius: .5em;
@@ -127,20 +141,15 @@ nav ul li a{
     }
 
 }
-@media (min-width: 1200px){
-    .wrap{width:1200px;
-    margin:0 auto;
-    overflow:hidden;}
+@media (min-width: 1200px)
     .pd-top-10{
         padding-top:10px;
     }
     h4.color-green{line-height: 3em;}
-    .student-border{
+    .col-border{
         border:1px solid #eeeded;
         background-color: #fff;
         border-radius: .5em;
-        padding:19px 33px 42px;
-        margin:0 2.5px;
     }
     .margintop-180{ margin-top:180px;}
 }
